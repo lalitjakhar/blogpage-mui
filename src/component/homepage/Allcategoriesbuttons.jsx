@@ -52,6 +52,7 @@ const Allcategoriesbuttons = () => {
                 "& .MuiOutlinedInput-root": {
                   width: "268px",
                   height: "36px",
+                  bgcolor:"#f5f6fa4c"
                 },
                 display:'flex',alignItems:'center'
               }}
@@ -65,7 +66,7 @@ const Allcategoriesbuttons = () => {
                 ),
               }}
             />
-            <Button sx={{height:"36px", width:'36px', border:"1px solid #d2d4d6", bgcolor:"#f5f6fa4c"}}><RssFeedIcon sx={{color:"rgba(0, 0, 0, 0.87)"}}/></Button>
+            <Button sx={{"& .MuiButtonBase-root":{  bgcolor:"#f5f6fa4c"},height:"35px", width:'35px' ,border:"1px solid #d2d4d6"}}><RssFeedIcon sx={{color:"rgba(0, 0, 0, 0.87)"}}/></Button>
           </Box>
         </Box>
       </Container>
