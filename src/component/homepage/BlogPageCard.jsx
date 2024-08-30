@@ -15,8 +15,8 @@ const BlogPageCard = () => {
     <>
       <Container maxWidth="lg" sx={{marginTop:"35px"}}>
         <Box sx={{ display: "flex", gap: "30px" }}>
-          <Box>
-            <Card sx={{}}>
+          <Box >
+            <Card sx={{ borderRadius:"10px", boxShadow:"3"}}>
               <CardActionArea>
                 <CardMedia
                   component="img"
@@ -97,7 +97,7 @@ const BlogPageCard = () => {
             </Card>
           </Box>
           <Box>
-            <Card sx={{}}>
+            <Card sx={{borderRadius:"10px", boxShadow:"3"}}>
               <CardActionArea>
                 <CardMedia
                   component="img"
