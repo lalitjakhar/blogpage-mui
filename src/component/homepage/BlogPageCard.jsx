@@ -78,13 +78,14 @@ const BlogPageCard = () => {
                       <Box>
                         <AvatarGroup sx={{ display: "inline-flex" }}>
                           <Avatar
-                            sx={{ textAlign: "start" }}
+                            sx={{ width: 24, height: 24 }}
                             alt="Remy Sharp"
                             src="src/assets/BlogPageCard/1.jpg"
                           />
                           <Avatar
                             alt="Travis Howard"
                             src="src/assets/BlogPageCard/2.jpg"
+                            sx={{ width: 24, height: 24 }}
                           />
                         </AvatarGroup>
                       </Box>
@@ -158,7 +159,7 @@ const BlogPageCard = () => {
                       <Box>
                         <AvatarGroup sx={{ display: "inline-flex" }}>
                           <Avatar
-                            sx={{ textAlign: "start" }}
+                            sx={{ width: 24, height: 24 }}
                             alt="Remy Sharp"
                             src="src/assets/BlogPageCard/1.jpg"
                           />

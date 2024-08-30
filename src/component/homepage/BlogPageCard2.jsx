@@ -78,7 +78,7 @@ const BlogPageCard2 = () => {
                       <Box>
                         <AvatarGroup sx={{ display: "inline-flex" }}>
                           <Avatar
-                            sx={{ textAlign: "start" }}
+                            sx={{ width: 24, height: 24 }}
                             alt="Remy Sharp"
                             src="src/assets/BlogPageCard/1.jpg"
                           />
@@ -153,7 +153,7 @@ const BlogPageCard2 = () => {
                         <Box>
                           <AvatarGroup sx={{ display: "inline-flex" }}>
                             <Avatar
-                              sx={{ textAlign: "start" }}
+                              sx={{ width: 24, height: 24 }}
                               alt="Remy Sharp"
                               src="src/assets/BlogPageCard/1.jpg"
                             />
@@ -213,7 +213,7 @@ const BlogPageCard2 = () => {
                         display: "flex",
                         justifyContent: "space-between",
                         alignItems: "center",
-                        marginTop: "50px",
+                        marginTop: "67px",
                       }}
                     >
                       <Box
@@ -226,12 +226,12 @@ const BlogPageCard2 = () => {
                         <Box>
                           <AvatarGroup sx={{ display: "inline-flex" }}>
                             <Avatar
-                              sx={{ textAlign: "start" }}
+                              sx={{ width: 24, height: 24 }}
                               alt="Remy Sharp"
                               src="src/assets/BlogPageCard/1.jpg"
                             />
                             <Avatar
-                              sx={{ textAlign: "start" }}
+                              sx={{ width: 24, height: 24 }}
                               alt="Remy Sharp"
                               src="src/assets/BlogPageCard/1.jpg"
                             />
@@ -309,7 +309,7 @@ const BlogPageCard2 = () => {
                       <Box>
                         <AvatarGroup sx={{ display: "inline-flex" }}>
                           <Avatar
-                            sx={{ textAlign: "start" }}
+                            sx={{ width: 24, height: 24 }}
                             alt="Remy Sharp"
                             src="src/assets/BlogPageCard/1.jpg"
                           />
