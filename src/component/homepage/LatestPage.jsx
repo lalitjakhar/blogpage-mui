@@ -1,4 +1,12 @@
-import { Avatar, AvatarGroup, Box, Container, Typography } from "@mui/material";
+import {
+  Avatar,
+  AvatarGroup,
+  Box,
+  Container,
+  Pagination,
+  Stack,
+  Typography,
+} from "@mui/material";
 
 const LatestPage = () => {
   return (
@@ -40,6 +48,9 @@ const LatestPage = () => {
                   fontFamily: "sans-serif",
                   fontWeight: "600",
                   marginTop: "10px",
+                  "&:hover": {
+                    borderBottom: "1px solid grey",
+                  },
                 }}
               >
                 The future of AI in software engineering
@@ -112,6 +123,10 @@ const LatestPage = () => {
                   fontFamily: "sans-serif",
                   fontWeight: "600",
                   marginTop: "10px",
+                  "&:hover": {
+                    borderBottom: "1px solid grey",
+                    
+                  },
                 }}
               >
                 Driving growth with user-centric product design
@@ -146,7 +161,7 @@ const LatestPage = () => {
                   <Box>
                     <AvatarGroup sx={{ display: "inline-flex" }}>
                       <Avatar
-                       sx={{ width: 24, height: 24 }}
+                        sx={{ width: 24, height: 24 }}
                         alt="Remy Sharp"
                         src="src/assets/BlogPageCard/1.jpg"
                       />
@@ -497,7 +512,7 @@ const LatestPage = () => {
                         src="src/assets/BlogPageCard/1.jpg"
                       />
                       <Avatar
-                       sx={{ width: 24, height: 24 }}
+                        sx={{ width: 24, height: 24 }}
                         alt="Remy Sharp"
                         src="src/assets/BlogPageCard/1.jpg"
                       />
@@ -633,7 +648,6 @@ const LatestPage = () => {
                   <Box>
                     <AvatarGroup sx={{ display: "inline-flex" }}>
                       <Avatar
-                      
                         alt="Remy Sharp"
                         src="src/assets/BlogPageCard/1.jpg"
                         sx={{ width: 24, height: 24 }}
@@ -701,7 +715,6 @@ const LatestPage = () => {
                   <Box>
                     <AvatarGroup sx={{ display: "inline-flex" }}>
                       <Avatar
-                       
                         alt="Remy Sharp"
                         src="src/assets/BlogPageCard/1.jpg"
                         sx={{ width: 24, height: 24 }}
@@ -715,7 +728,25 @@ const LatestPage = () => {
             </Box>
           </Box>
         </Box>
+
+        <Box sx={{marginTop:'20px'}}>
+          <Stack>
+            <Pagination count={10} />
+          </Stack>
+        </Box>
       </Container>
+
+
+
+
+      <div className="z-40 ...">05</div>
+<div className="z-30 ...">04</div>
+<div className="z-20 ...">03</div>
+<div className="z-10 ...">02</div>
+<div className="z-0 ...">01</div>
+
+        
+     
     </>
   );
 };

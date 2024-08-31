@@ -1,8 +1,11 @@
-.Tabcss{
-    border-radius: 30px !important;
-    font-size: 12px !important;
-    font-family: sans-serif !important;
-    text-transform: none !important;
-    color:#566481 !important;
-   
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Tabcss {
+  border-radius: 30px !important;
+  font-size: 12px !important;
+  font-family: sans-serif !important;
+  text-transform: none !important;
+  color: #566481 !important;
 }

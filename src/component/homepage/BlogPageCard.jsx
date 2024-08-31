@@ -13,10 +13,10 @@ import {
 const BlogPageCard = () => {
   return (
     <>
-      <Container maxWidth="lg" sx={{marginTop:"35px"}}>
+      <Container maxWidth="lg" sx={{ marginTop: "35px" }}>
         <Box sx={{ display: "flex", gap: "30px" }}>
-          <Box >
-            <Card sx={{ borderRadius:"10px", boxShadow:"3"}}>
+          <Box>
+            <Card sx={{ borderRadius: "10px", boxShadow: "3" }}>
               <CardActionArea>
                 <CardMedia
                   component="img"
@@ -98,7 +98,7 @@ const BlogPageCard = () => {
             </Card>
           </Box>
           <Box>
-            <Card sx={{borderRadius:"10px", boxShadow:"3"}}>
+            <Card sx={{ borderRadius: "10px", boxShadow: "3" }}>
               <CardActionArea>
                 <CardMedia
                   component="img"
@@ -163,7 +163,6 @@ const BlogPageCard = () => {
                             alt="Remy Sharp"
                             src="src/assets/BlogPageCard/1.jpg"
                           />
-                         
                         </AvatarGroup>
                       </Box>
                       <Box>Remy Sharp, Travis Howard</Box>

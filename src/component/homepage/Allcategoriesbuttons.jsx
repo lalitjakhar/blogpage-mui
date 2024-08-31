@@ -47,7 +47,7 @@ const Allcategoriesbuttons = () => {
             <TextField
               id="outlined-basic"
               variant="outlined"
-              placeholder="Search by name"
+              placeholder="Search..."
               sx={{
                 "& .MuiOutlinedInput-root": {
                   width: "268px",
